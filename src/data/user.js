@@ -60,15 +60,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Junyong0619",
 		},
-
-		{
-			title: "Front-End Foundations",
-			description:
-				"A collection of small HTML, CSS, and JavaScript exercises from my coursework. Nothing fancy, but it helped me get comfortable with the basics of building web pages and working with the DOM.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com/Junyong0619",
-		},
 	],
 };
 
