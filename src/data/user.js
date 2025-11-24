@@ -28,46 +28,46 @@ const INFO = {
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Notes & Learnings",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"A place where I document what I'm learning and things I found helpful along the way.",
 	},
 
 	projects: [
 		{
 			title: "Ticketing App",
 			description:
-				"Full ticketing web application using ASP.NET Core MVC with CRUD operations for Events, Categories, and Purchases. Features multi-step Purchase Confirmation flow, Razor-based forms, Entity Framework Core with PostgreSQL, and LINQ for data operations.",
+				"A school project where I built a ticketing system using ASP.NET Core MVC. I learned how to set up CRUD operations, connect to PostgreSQL, and work with Entity Framework. It was challenging but helped me understand how web apps handle data.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Junyong0619",
 		},
 
 		{
 			title: "PHP Quiz App",
 			description:
-				"PHP & MySQL quiz application with category selection, randomized questions, scoring logic, and result output. Implemented session/cookie management, functions.php for question handling, and MVC-like structure for page flow.",
+				"A quiz app I made with PHP and MySQL for a class assignment. I figured out how to use sessions, randomize questions, and track scores. It was my first time building something with a real database backend.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Junyong0619",
 		},
 
 		{
 			title: "Java Payroll System",
 			description:
-				"Payroll calculation system using Java OOP principles with class structures for Salary, Hourly, and Commission employee types. Applied inheritance, encapsulation, constructor overloading, and method overriding.",
+				"A console-based payroll calculator I built to practice Java OOP. I created different employee types and learned about inheritance and method overriding. Simple but helped me understand how classes work together.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Junyong0619",
 		},
 
 		{
 			title: "Front-End Foundations",
 			description:
-				"Front-end projects using HTML, CSS, and JavaScript with multi-page structures, semantic HTML, responsive CSS layouts, and JavaScript functions for loops, conditions, arrays, and DOM manipulation.",
+				"A collection of small HTML, CSS, and JavaScript exercises from my coursework. Nothing fancy, but it helped me get comfortable with the basics of building web pages and working with the DOM.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Junyong0619",
 		},
 	],
 };
