@@ -1,5 +1,5 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
@@ -9,34 +9,34 @@ const Works = () => {
 	return (
 		<div className="works">
 			<Card
-				icon={faBriefcase}
-				title="Work"
+				icon={faGraduationCap}
+				title="Education"
 				body={
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="https://www.georgebrown.ca/favicon.ico"
+								alt="George Brown College"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">George Brown College</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Computer Programming & Analysis
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2024 - Present</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="https://www.sgic.ca/favicon.ico"
+								alt="SGIC"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
+							<div className="work-title">ST. George International College</div>
 							<div className="work-subtitle">
-								Software Engineer
+								English Language Advanced
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2023 - 2024</div>
 						</div>
 					</div>
 				}
