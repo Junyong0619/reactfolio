@@ -2,7 +2,7 @@ import React from "react";
 
 function project_1() {
 	return {
-		date: "Fall 2024",
+		date: "Fall 2025",
 		title: "Ticketing App",
 		description:
 			"ASP.NET Core MVC ticketing system with CRUD operations, Entity Framework Core, and PostgreSQL integration.",
@@ -84,7 +84,7 @@ function project_1() {
 
 function project_2() {
 	return {
-		date: "Fall 2024",
+		date: "Fall 2025",
 		title: "PHP Quiz App",
 		description:
 			"Interactive quiz application with MySQL database, session management, and randomized questions.",
@@ -165,7 +165,7 @@ function project_2() {
 
 function project_3() {
 	return {
-		date: "Fall 2024",
+		date: "Fall 2025",
 		title: "Java Payroll System",
 		description:
 			"Console-based payroll calculator demonstrating OOP principles with different employee types.",
