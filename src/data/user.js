@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Backend Developer Portfolio",
+		name: "Junyong Choi",
+		email: "dmsql6829@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -16,15 +16,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Backend Developer | ASP.NET Core & PHP & Java",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Backend Developer and Computer Programming & Analysis student at George Brown College. I specialize in building scalable server-side applications using ASP.NET Core MVC, Entity Framework Core, PHP, and Java. I have strong experience in database design with PostgreSQL and MySQL, implementing RESTful APIs, CRUD operations, and MVC architecture patterns. I'm passionate about writing clean, maintainable backend code and optimizing database performance.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I'm Junyong Choi, a Backend Developer studying Computer Programming & Analysis at George Brown College.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I focus on server-side development with expertise in ASP.NET Core MVC, Entity Framework Core, PHP, MySQL, PostgreSQL, and Java. My projects demonstrate strong proficiency in OOP principles, MVC architecture, REST principles, CRUD design, database modeling, form validation, and session/authentication. I'm dedicated to building robust, scalable backend systems and continuously expanding my knowledge in server-side technologies.",
 	},
 
 	articles: {
@@ -35,46 +35,37 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Ticketing App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Full ticketing web application using ASP.NET Core MVC with CRUD operations for Events, Categories, and Purchases. Features multi-step Purchase Confirmation flow, Razor-based forms, Entity Framework Core with PostgreSQL, and LINQ for data operations.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "PHP Quiz App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"PHP & MySQL quiz application with category selection, randomized questions, scoring logic, and result output. Implemented session/cookie management, functions.php for question handling, and MVC-like structure for page flow.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "Java Payroll System",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Payroll calculation system using Java OOP principles with class structures for Salary, Hourly, and Commission employee types. Applied inheritance, encapsulation, constructor overloading, and method overriding.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+
+		{
+			title: "Front-End Foundations",
+			description:
+				"Front-end projects using HTML, CSS, and JavaScript with multi-page structures, semantic HTML, responsive CSS layouts, and JavaScript functions for loops, conditions, arrays, and DOM manipulation.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
