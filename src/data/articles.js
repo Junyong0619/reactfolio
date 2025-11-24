@@ -166,11 +166,11 @@ function project_2() {
 function project_3() {
 	return {
 		date: "Fall 2025",
-		title: "Java Student Management System",
+		title: "Java Payroll System",
 		description:
-			"Console-based student management system demonstrating OOP principles with different student types.",
+			"Payroll calculation system using Java OOP principles with Salary, Hourly, and Commission employee types.",
 		keywords: [
-			"Java Student Management System",
+			"Java Payroll System",
 			"Java",
 			"OOP",
 			"Junyong Choi",
@@ -214,23 +214,23 @@ function project_3() {
 				<div className="article-content">
 					<img
 						src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
-						alt="Java Student Management System"
+						alt="Java Payroll System"
 						className="project-image"
 						style={{maxWidth: "200px"}}
 					/>
 					<div className="project-details">
 						<h3>Project Overview</h3>
 						<p>
-							A console-based student management system I built to practice Java OOP. 
-							I created different student types (Undergraduate, Graduate, International) and 
-							learned how inheritance and polymorphism work in practice.
+							A payroll calculation system I built using Java OOP principles. 
+							I designed class structures for Salary, Hourly, and Commission employee types
+							and implemented payroll logic and employee data storage using arrays and ArrayLists.
 						</p>
 						<h3>What I Learned</h3>
 						<ul>
-							<li>Class inheritance and method overriding</li>
-							<li>Encapsulation and constructor overloading</li>
-							<li>Using super() for subclass-superclass interaction</li>
-							<li>Formatted output with toString() implementations</li>
+							<li>Designed class structures for different employee types</li>
+							<li>Applied inheritance, encapsulation, and method overriding</li>
+							<li>Utilized super() for subclass-superclass interaction</li>
+							<li>Generated formatted payroll output with toString() implementations</li>
 						</ul>
 						<div className="tech-stack">
 							<span className="tech-tag">Java</span>

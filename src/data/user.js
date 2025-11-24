@@ -53,12 +53,12 @@ const INFO = {
 		},
 
 		{
-			title: "Java Student Management System",
+			title: "Java Payroll System",
 			description:
-				"A console-based student management system I built to practice Java OOP. I created different student types and learned about inheritance, encapsulation, and method overriding. Simple but helped me understand how classes work together.",
+				"A payroll calculation system using Java OOP principles. I designed class structures for Salary, Hourly, and Commission employee types, and implemented payroll logic using arrays and ArrayLists. Applied inheritance, encapsulation, constructor overloading, and method overriding.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com/Junyong0619",
+			link: "https://github.com/Junyong0619/COMP2130-JavaPayroll",
 		},
 	],
 };
