@@ -53,9 +53,9 @@ const INFO = {
 		},
 
 		{
-			title: "Java Payroll System",
+			title: "Java Student Management System",
 			description:
-				"A console-based payroll calculator I built to practice Java OOP. I created different employee types and learned about inheritance and method overriding. Simple but helped me understand how classes work together.",
+				"A console-based student management system I built to practice Java OOP. I created different student types and learned about inheritance, encapsulation, and method overriding. Simple but helped me understand how classes work together.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/Junyong0619",

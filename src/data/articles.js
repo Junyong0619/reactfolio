@@ -166,11 +166,11 @@ function project_2() {
 function project_3() {
 	return {
 		date: "Fall 2025",
-		title: "Java Payroll System",
+		title: "Java Student Management System",
 		description:
-			"Console-based payroll calculator demonstrating OOP principles with different employee types.",
+			"Console-based student management system demonstrating OOP principles with different student types.",
 		keywords: [
-			"Java Payroll System",
+			"Java Student Management System",
 			"Java",
 			"OOP",
 			"Junyong Choi",
@@ -214,15 +214,15 @@ function project_3() {
 				<div className="article-content">
 					<img
 						src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
-						alt="Java Payroll System"
+						alt="Java Student Management System"
 						className="project-image"
 						style={{maxWidth: "200px"}}
 					/>
 					<div className="project-details">
 						<h3>Project Overview</h3>
 						<p>
-							A console-based payroll calculator I built to practice Java OOP. 
-							I created different employee types (Salary, Hourly, Commission) and 
+							A console-based student management system I built to practice Java OOP. 
+							I created different student types (Undergraduate, Graduate, International) and 
 							learned how inheritance and polymorphism work in practice.
 						</p>
 						<h3>What I Learned</h3>
