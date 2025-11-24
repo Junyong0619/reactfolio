@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="https://www.georgebrown.ca/favicon.ico"
+								src="/gbc-logo.png"
 								alt="George Brown College"
 								className="work-image"
 							/>
@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="https://www.sgic.ca/favicon.ico"
+								src="/sgic-logo.png"
 								alt="SGIC"
 								className="work-image"
 							/>

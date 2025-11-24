@@ -50,7 +50,7 @@ function project_1() {
 			<React.Fragment>
 				<div className="article-content">
 					<img
-						src="/images/projects/ticketing-app.png"
+						src="/images/projects/event list.png"
 						alt="Ticketing App Screenshot"
 						className="project-image"
 					/>
@@ -132,7 +132,7 @@ function project_2() {
 			<React.Fragment>
 				<div className="article-content">
 					<img
-						src="/images/projects/quiz-app.png"
+						src="/images/projects/php quiz demo.png"
 						alt="PHP Quiz App Screenshot"
 						className="project-image"
 					/>
@@ -213,9 +213,10 @@ function project_3() {
 			<React.Fragment>
 				<div className="article-content">
 					<img
-						src="/images/projects/payroll-system.png"
-						alt="Java Payroll System Screenshot"
+						src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
+						alt="Java Payroll System"
 						className="project-image"
+						style={{maxWidth: "200px"}}
 					/>
 					<div className="project-details">
 						<h3>Project Overview</h3>
