@@ -28,9 +28,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Notes & Learnings",
+		title: "Project Showcase",
 		description:
-			"A place where I document what I'm learning and things I found helpful along the way.",
+			"Visual walkthrough of my projects. Click on each one to see screenshots and details about what I built and learned.",
 	},
 
 	projects: [
