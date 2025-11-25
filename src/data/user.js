@@ -60,6 +60,15 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Junyong0619/COMP2139-TicketingApp-Portfolio",
 		},
+
+		{
+			title: "Clinical Management System – Data Modeling",
+			description:
+				"A data modeling project based on ABC Clinic's requirements. I identified core entities (patients, staff, appointments, visits, tests, payments) and designed Conceptual ERD → Physical ERD → Class Diagram. Learned data normalization, relationship mapping, and resolving M:N relationships.",
+			logo: "https://cdn-icons-png.flaticon.com/512/4492/4492311.png",
+			linkText: "View Project",
+			link: "https://github.com/Junyong0619/COMP2147-ClinicalManagement-DataModeling",
+		},
 	],
 };
 
