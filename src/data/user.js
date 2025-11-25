@@ -40,7 +40,7 @@ const INFO = {
 				"A quiz app I made with PHP and MySQL for a class assignment. I figured out how to use sessions, randomize questions, and track scores. It was my first time building something with a real database backend.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
 			linkText: "View Project",
-			link: "https://github.com/Junyong0619/COMP2108-PHPQuiz",
+			link: "https://github.com/Junyong0619/COMP1230-QuizApp",
 		},
 
 		{
