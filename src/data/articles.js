@@ -406,6 +406,12 @@ function project_5() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
+					<img
+						src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png"
+						alt="Java Student Management System"
+						className="project-image"
+						style={{maxWidth: "200px"}}
+					/>
 					<div className="project-details">
 						<h3>Project Overview</h3>
 						<p>
