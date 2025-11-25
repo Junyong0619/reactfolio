@@ -58,7 +58,7 @@ const INFO = {
 				"A school project where I built a ticketing system using ASP.NET Core MVC. I learned how to set up CRUD operations, connect to PostgreSQL, and work with Entity Framework. It was challenging but helped me understand how web apps handle data.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
 			linkText: "View Project",
-			link: "https://github.com/Junyong0619/COMP2139-Ticketing",
+			link: "https://github.com/Junyong0619/COMP2139-TicketingApp-Portfolio",
 		},
 	],
 };
