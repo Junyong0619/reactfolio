@@ -49,16 +49,12 @@ const Contact = () => {
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
 							&nbsp;{" "}
-							<a 
-								href={`mailto:${INFO.main.email}`}
-								onClick={(e) => {
-									e.preventDefault();
-									window.location.href = `mailto:${INFO.main.email}`;
-								}}
-								style={{ cursor: 'pointer' }}
+							<span 
+								onClick={() => window.open(`mailto:${INFO.main.email}`, '_self')}
+								style={{ cursor: 'pointer', color: 'var(--link-color)', textDecoration: 'underline' }}
 							>
 								{INFO.main.email}
-							</a>
+							</span>
 							. I make an effort to respond to all messages as soon
 							as possible. You can also find me on{" "}
 							<a

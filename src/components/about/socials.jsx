@@ -43,20 +43,16 @@ const Socials = () => {
 
 			<div className="email">
 				<div className="email-wrapper">
-					<a 
-						href={`mailto:${INFO.main.email}`}
-						onClick={(e) => {
-							e.preventDefault();
-							window.location.href = `mailto:${INFO.main.email}`;
-						}}
-						style={{ cursor: 'pointer' }}
+					<div 
+						onClick={() => window.open(`mailto:${INFO.main.email}`, '_self')}
+						style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
 					>
 						<div className="social-icon">
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
 
 						<div className="social-text">{INFO.main.email}</div>
-					</a>
+					</div>
 				</div>
 			</div>
 		</div>
