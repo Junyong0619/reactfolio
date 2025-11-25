@@ -43,11 +43,7 @@ const Socials = () => {
 
 			<div className="email">
 				<div className="email-wrapper">
-					<a
-						href={`mailto:${INFO.main.email}`}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<a href={`mailto:${INFO.main.email}`}>
 						<div className="social-icon">
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
