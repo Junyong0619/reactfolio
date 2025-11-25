@@ -49,11 +49,7 @@ const Contact = () => {
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
 							&nbsp;{" "}
-							<a 
-								href={`https://mail.google.com/mail/?view=cm&fs=1&to=${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
+							<a href="mailto:dmsql6829@gmail.com">
 								{INFO.main.email}
 							</a>
 							. I make an effort to respond to all messages as soon
