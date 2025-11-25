@@ -3,6 +3,7 @@
 	display: block;
 	margin: 0;
 	padding: 0;
-	aspect-ratio: 1 / 1;
+	width: 46px !important;
+	height: 46px !important;
 	object-fit: cover;
 }
