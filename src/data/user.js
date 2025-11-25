@@ -35,21 +35,12 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Ticketing App",
-			description:
-				"A school project where I built a ticketing system using ASP.NET Core MVC. I learned how to set up CRUD operations, connect to PostgreSQL, and work with Entity Framework. It was challenging but helped me understand how web apps handle data.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
-			linkText: "View Project",
-			link: "https://github.com/Junyong0619",
-		},
-
-		{
 			title: "PHP Quiz App",
 			description:
 				"A quiz app I made with PHP and MySQL for a class assignment. I figured out how to use sessions, randomize questions, and track scores. It was my first time building something with a real database backend.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
 			linkText: "View Project",
-			link: "https://github.com/Junyong0619",
+			link: "https://github.com/Junyong0619/COMP2108-PHPQuiz",
 		},
 
 		{
@@ -59,6 +50,15 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/Junyong0619/COMP2130-JavaPayroll",
+		},
+
+		{
+			title: "Ticketing App",
+			description:
+				"A school project where I built a ticketing system using ASP.NET Core MVC. I learned how to set up CRUD operations, connect to PostgreSQL, and work with Entity Framework. It was challenging but helped me understand how web apps handle data.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
+			linkText: "View Project",
+			link: "https://github.com/Junyong0619/COMP2139-Ticketing",
 		},
 	],
 };
