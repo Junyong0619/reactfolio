@@ -69,6 +69,15 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Junyong0619/COMP2147-ClinicalManagement-DataModeling",
 		},
+
+		{
+			title: "Student Management System",
+			description:
+				"A console-based student management system built for COMP2130. Supports creating Undergraduate/Graduate students, storing them in arrays/ArrayList, and displaying students eligible for graduation. Practiced OOP fundamentals like inheritance, aggregation, and method overriding.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+			linkText: "View Project",
+			link: "https://github.com/Junyong0619/COMP2130-StudentManagement",
+		},
 	],
 };
 

@@ -346,6 +346,114 @@ function project_4() {
 	};
 }
 
-const myArticles = [project_1, project_2, project_3, project_4];
+function project_5() {
+	return {
+		date: "Fall 2025",
+		title: "Student Management System",
+		description:
+			"Console-based student management system using Java OOP principles.",
+		keywords: [
+			"Java",
+			"OOP",
+			"Student Management",
+			"Junyong Choi",
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.project-image {
+					width: 100%;
+					max-width: 800px;
+					border-radius: 8px;
+					box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+					margin: 20px 0;
+				}
+
+				.project-details {
+					max-width: 800px;
+					line-height: 1.8;
+				}
+
+				.tech-stack {
+					display: flex;
+					flex-wrap: wrap;
+					gap: 8px;
+					margin: 20px 0;
+				}
+
+				.tech-tag {
+					background: #f0f0f0;
+					padding: 4px 12px;
+					border-radius: 16px;
+					font-size: 14px;
+				}
+
+				.code-block {
+					background: #1e1e1e;
+					color: #d4d4d4;
+					padding: 16px;
+					border-radius: 8px;
+					overflow-x: auto;
+					font-family: 'Consolas', monospace;
+					font-size: 14px;
+					margin: 16px 0;
+				}
+				`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="project-details">
+						<h3>Project Overview</h3>
+						<p>
+							A console-based student management system built for the COMP2130 course.
+							It supports creating Undergraduate and Graduate students, storing them 
+							in an array/ArrayList, and displaying all students or only those 
+							eligible for graduation based on their average marks.
+						</p>
+
+						<h3>Class Structure</h3>
+						<ul>
+							<li><strong>Student.java</strong> - Base class with common student properties</li>
+							<li><strong>UndergraduateStudent.java</strong> - Extends Student for undergraduate students</li>
+							<li><strong>GraduateStudent.java</strong> - Extends Student for graduate students</li>
+							<li><strong>Address.java</strong> - Aggregated class for student address</li>
+							<li><strong>Main.java</strong> - Console menu and program entry point</li>
+						</ul>
+
+						<h3>Features</h3>
+						<ul>
+							<li>Create Undergraduate and Graduate students</li>
+							<li>Store students in array/ArrayList</li>
+							<li>Display all students</li>
+							<li>Show students eligible for graduation based on average marks</li>
+							<li>Interactive console menu system</li>
+						</ul>
+
+						<h3>What I Learned</h3>
+						<ul>
+							<li>OOP fundamentals: inheritance, aggregation, method overriding</li>
+							<li>Array and ArrayList handling in Java</li>
+							<li>Building interactive console applications</li>
+							<li>Encapsulation through private fields and getters/setters</li>
+						</ul>
+						<div className="tech-stack">
+							<span className="tech-tag">Java</span>
+							<span className="tech-tag">OOP</span>
+							<span className="tech-tag">Inheritance</span>
+							<span className="tech-tag">Arrays/ArrayList</span>
+							<span className="tech-tag">Aggregation</span>
+						</div>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [project_1, project_2, project_3, project_4, project_5];
 
 export default myArticles;
