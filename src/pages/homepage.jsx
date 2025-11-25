@@ -15,6 +15,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
+import Skills from "../components/homepage/skills";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -168,6 +169,10 @@ const Homepage = () => {
 
 						<div className="homepage-projects">
 							<AllProjects />
+						</div>
+
+						<div className="homepage-skills">
+							<Skills />
 						</div>
 
 						<div className="homepage-after-title">

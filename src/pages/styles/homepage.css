@@ -93,6 +93,10 @@
 	padding-top: 30px;
 }
 
+.homepage-skills {
+	padding-top: 40px;
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
