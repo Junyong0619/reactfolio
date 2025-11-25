@@ -135,6 +135,11 @@ const Homepage = () => {
 							</a>
 							<a
 								href={`mailto:${INFO.main.email}`}
+								onClick={(e) => {
+									e.preventDefault();
+									window.location.href = `mailto:${INFO.main.email}`;
+								}}
+								style={{ cursor: 'pointer' }}
 							>
 								<FontAwesomeIcon
 									icon={faEnvelope}

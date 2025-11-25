@@ -49,7 +49,14 @@ const Contact = () => {
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
 							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
+							<a 
+								href={`mailto:${INFO.main.email}`}
+								onClick={(e) => {
+									e.preventDefault();
+									window.location.href = `mailto:${INFO.main.email}`;
+								}}
+								style={{ cursor: 'pointer' }}
+							>
 								{INFO.main.email}
 							</a>
 							. I make an effort to respond to all messages as soon
