@@ -49,12 +49,13 @@ const Contact = () => {
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
 							&nbsp;{" "}
-							<span 
-								onClick={() => window.open(`mailto:${INFO.main.email}`, '_self')}
-								style={{ cursor: 'pointer', color: 'var(--link-color)', textDecoration: 'underline' }}
+							<a 
+								href={`https://mail.google.com/mail/?view=cm&fs=1&to=${INFO.main.email}`}
+								target="_blank"
+								rel="noreferrer"
 							>
 								{INFO.main.email}
-							</span>
+							</a>
 							. I make an effort to respond to all messages as soon
 							as possible. You can also find me on{" "}
 							<a

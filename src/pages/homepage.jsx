@@ -133,15 +133,16 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<div
-								onClick={() => window.open(`mailto:${INFO.main.email}`, '_self')}
-								style={{ cursor: 'pointer', display: 'inline-block' }}
+							<a
+								href={`https://mail.google.com/mail/?view=cm&fs=1&to=${INFO.main.email}`}
+								target="_blank"
+								rel="noreferrer"
 							>
 								<FontAwesomeIcon
 									icon={faEnvelope}
 									className="homepage-social-icon"
 								/>
-							</div>
+							</a>
 						</div>
 
 						<div className="homepage-projects">

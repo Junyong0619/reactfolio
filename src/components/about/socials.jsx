@@ -43,16 +43,17 @@ const Socials = () => {
 
 			<div className="email">
 				<div className="email-wrapper">
-					<div 
-						onClick={() => window.open(`mailto:${INFO.main.email}`, '_self')}
-						style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+					<a 
+						href={`https://mail.google.com/mail/?view=cm&fs=1&to=${INFO.main.email}`}
+						target="_blank"
+						rel="noreferrer"
 					>
 						<div className="social-icon">
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
 
 						<div className="social-text">{INFO.main.email}</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
