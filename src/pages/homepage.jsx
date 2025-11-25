@@ -133,7 +133,11 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a href="mailto:dmsql6829@gmail.com">
+							<a
+								href="https://mail.google.com/mail/?view=cm&fs=1&to=dmsql6829@gmail.com"
+								target="_blank"
+								rel="noreferrer"
+							>
 								<FontAwesomeIcon
 									icon={faEnvelope}
 									className="homepage-social-icon"
